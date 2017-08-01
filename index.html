@@ -3,7 +3,7 @@
   <head>
     <title>Accessibility in one sprint</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,200,300,700|Ubuntu+Mono:400,700,400italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zilla+Slab:500,700">
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -14,116 +14,183 @@ class: center, middle
 
 # Accessibility in one sprint
 
-.small[[@TBD meetup](http://www.meetup.com/) | DATE TBD]
+.small[[@ONA Boston Lightening Talk](https://www.meetup.com/ONA-Boston/events/240919759/) | Tues, Aug 1, 2017]
 
-Daigo Fujiwara, .small[Web Developer, WBUR, http://wbur.org]
+Daigo Fujiwara, .small[Web Developer, WBUR, http://wbur.org @DaigoFuji]
 
-@DaigoFuji
-
----
-class: center, middle, inverse
-
-# Accessibility
----
-class: center, middle
-
-Inaccesible?
----
-class: center, middle
-
-Americans with Disabilities Act ("ADA") and Section 504 of the Rehabilitation Act
+<!--- 
+Using Ignite style 20 slides x 15 sec = 5 min format
+-->
 
 ---
-class: center, middle, inverse
+class: center, middle, white
 
-Assistive Technology
+## *Caveat
+
+You should spend more than one sprint on web accessibility.
+
+<!---
+Why did I want to do this talk? I wanted to demystify accessibility. 
+-->
 
 ---
-class: center, middle
+class: center, middle, white, big-img
 
-Apple + Voice Over
-Windows IE + JAWS
-Windows IE + NVDA
-Orca
----
-class: center, middle
 
-As more and more of our social infrastructure is made available on the Internet - in some cases, exclusively online - access to information and electronic technologies is increasingly becoming the gateway civil rights issue for individuals with disabilities.
+![Trello card](img/trello.png)
+
+<!---
+I am not an accessibility expert.
+
+You hear about ADA compliance law suit but spirit of ADA is to give more people access to information, contents that you create.
+-->
 ---
 class: center, middle
 
-Policy  Non discrimination Equal Opportunity
+## **Americans with Disabilities Act** ("ADA") and **Section 508 of the Rehabilitation Act**
+
+---
+class: center, middle, white, big-img
+
+![Velma](img/velma.gif)
 
 ---
 class: center, middle
 
-Access to meaningful and effective contents on the internet 
+# Make the website **NOT inaccesible**
+<!---
+Access to meaningful and effective contents on the Internet 
 integral part of our modern life
----
-class: center, middle, inverse
 
 Universal Design
 
+As more and more of our social infrastructure is made available on the Internet - in some cases, exclusively online - access to information and electronic technologies is increasingly becoming the gateway civil rights issue for individuals with disabilities (Non-discrimination, Equal Opportunity). - Bobby Silverstein, the behind-the-scenes architect of the Americans with Disabilities Act (ADA)
+-->
+
 ---
 class: center, middle, inverse
 
-WCAG 2.0
+# Assistive Technology
+
+Screen Reader (blind), Zoom (low vision), Closed Captioning (deaf) etc.
+
+---
+class: middle
+
+## Screen Reader landscape
+
+- Apple Safari + [Voice Over](https://www.apple.com/accessibility/mac/vision/)
+- Windows IE + [JAWS](http://www.freedomscientific.com/Products/Blindness/JAWS)
+- Windows IE + [NVDA](https://www.nvaccess.org/)
+- [Orca](https://wiki.gnome.org/Projects/Orca)
+<!---
+JAWS (Job Access With Speech)
+NVDA (NonVisual Desktop Access)
+Orca is open source
+-->
+---
+class: center, middle, white, big-img
+
+## Apple Voice Over
+
+![vo](img/voiceover.jpg)
+
+---
+class: center, middle, white, big-img
+
+Turning it on
+
+![vo](img/accessibility-panel.png)
+
+---
+class: center, middle, white, big-img
+
+![bur](img/screenreader-wbur.png)
+
+---
+class: middle
+
+## VoiceOver Useful keys:
+
+VO key is "Control Option" by default
+- VO-D Dock
+- VO-B Read from beginning
+
+
+---
+class:  middle, inverse
+
+# Roter?
+
+- VO-U 
+
+---
+class: center, middle, white, big-img
+
+<video width="608" height="480" controls loop>
+  <source src="img/roter.m4v" type="video/mp4">
+  <source src="img/roter.mov" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+
 ---
 class: center, middle
 
-https://www.w3.org/WAI/WCAG20/quickref/
+# WCAG 2.0
 
-https://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html
+[Web Content Accessibility Guidelines](https://www.w3.org/WAI/WCAG20/quickref/)
 
+<!---
 
 WCAG PRINCIPLES 
-- Perceivable
-- Operable
+- Perceivable (able to see/hear - not hidden)
+- Operable (able to use)
 - Understandable
 - Robust
----
-class: center, middle
-
-Alt tag
----
-class: center, middle
-
-Apple + Voice Over
+-->
 
 ---
-class: center, middle
+class: center, middle, big-img
 
-Accessible Rich Internet Applications (ARIA)
+## Alt tag
 
-aria-required
-aria-invalid
-aria-describedby
-aria-labeledby
-aria-label
+![Alt tag is important](img/)
 
 ---
-class: center, middle
+class: middle
 
-Safari Reader
+### Accessible Rich Internet Applications (ARIA)
+
+- aria-required
+- aria-invalid
+- aria-describedby (Use id on a page)
+- aria-labeledby 
+- aria-label
+
+---
+class: middle
+
+## Resources 
+
+
+-W3C [Understanding WCAG 2.0](https://www.w3.org/TR/UNDERSTANDING-WCAG20/Overview.html)
+- Microsoft's [Inclusive Design](https://www.microsoft.com/en-us/design/inclusive)
+- Google [Accessibility](https://www.google.com/accessibility/for-developers.html)
+- [Perkins School for the Blind](http://www.perkins.org/get-involved/events/achieving-web-accessibility-make-sure-your-online-presence-works-for-everyone)
 
 
 ---
 class: middle, white
 
-
 ##In conclusion
 
-* dddd
-
----
-class: center, middle, white, big-img
-
-![Alt tag is important](img/)
-
+* Don't be afraid
+* Responsive Design and Mobile First approach helps Accessibility
+* Turn VoiceOver and check your site out
 
 ---
 class: middle, center, white, big-img
-<img src="img/gif.gif" alt="" width="500">
+<img src="img/velma.gif" alt="" width="500">
 
 **Thank you!** <br>https://github.com/daigofuji/a11y-in-one-sprint
 

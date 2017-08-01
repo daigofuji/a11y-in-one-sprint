@@ -7,7 +7,7 @@ white: #f2f2f2;
 */
 body {
   color: #012340;
-  font-family: 'Yanone Kaffeesatz';
+  font-family: 'Zilla Slab', serif;
   font-weight: 300;
   line-height: 1.4;
 }
@@ -21,7 +21,7 @@ body {
   font-weight: 200;
 }
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
+  font-family: 'Zilla Slab', serif;
   font-weight: 200;
   margin: .2em 0;
 }
